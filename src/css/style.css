@@ -805,6 +805,9 @@ footer .wrapper .apps_links {
     font-size: 15px;
     margin-right: 20px;
   }
+  footer .wrapper .links .lang {
+    margin-top: 20px;
+  }
   footer .wrapper .soc_networks {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
