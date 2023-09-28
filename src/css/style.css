@@ -874,6 +874,9 @@ footer .wrapper .apps_links {
   footer .wrapper .links .lang {
     margin-top: -5px;
   }
+  footer .wrapper .soc_networks {
+    margin-top: 70px;
+  }
 }
 @media (max-width: 321px) {
   .subheader {
