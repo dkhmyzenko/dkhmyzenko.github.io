@@ -869,7 +869,7 @@ footer .wrapper .apps_links {
     font-size: 17px;
   }
   footer .wrapper .links .lang {
-    margin-top: 20px;
+    margin-top: -5px;
   }
 }
 @media (max-width: 321px) {
