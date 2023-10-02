@@ -1,0 +1,13 @@
+@import 'base/mixins';
+@import 'base/media';
+@import 'base/variable';
+@import 'blocks/container';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Museo Sans Cyrl', sans-serif ;
+}

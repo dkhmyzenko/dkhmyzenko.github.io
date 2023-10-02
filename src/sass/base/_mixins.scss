@@ -1,0 +1,5 @@
+@mixin hover {
+&:hover {
+    color: inherit;
+}
+}
