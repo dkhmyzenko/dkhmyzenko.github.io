@@ -1,0 +1,38 @@
+.slider {
+    min-height: 750px;
+    padding: 108px 0 115px 0;
+    &__wrapper {
+        display: flex;
+    }
+    &__courusel {
+        width: 100%;
+        overflow: hidden;
+
+    }
+    &__inner {
+        width: 300%;
+        transform: translateX(0px);
+        height: 527px;
+        display: flex;
+        transition: 0.7s all;
+    }
+    &__button {
+        border:none;
+        background:#ffffff;
+        width: 31px;
+        height: 50px;
+        margin-top: 227px;
+        padding: 0;
+        &_left {
+            margin-right: 67px;
+        }
+        &_right {
+            margin-left: 67px;
+        }
+    }
+    &__btnimg {
+        width: 31px;
+        height: 50px;
+
+    }
+}
