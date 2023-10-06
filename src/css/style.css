@@ -277,7 +277,7 @@ nav {
   letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 autos;
+  margin: 0 auto;
 }
 .mobile_item .plus {
   display: block;
@@ -407,13 +407,13 @@ nav {
 }
 
 .world {
-  height: 717;
+  height: 717px;
   background: url(../img/footer.jpg) center center/cover no-repeat;
   padding: 49px 0;
 }
 .world .all_cities {
   display: block;
-  margin-top: 486px;
+  margin-top: 460px;
   height: 14px;
   color: #1fbad6;
   font-size: 15px;
@@ -845,6 +845,9 @@ footer .wrapper .apps_links {
     width: 100%;
     margin-right: 10px;
   }
+  .world .all_cities {
+    margin-top: 435px;
+  }
   .subtitle {
     margin-top: 45px;
   }
@@ -885,6 +888,9 @@ footer .wrapper .apps_links {
   .subheader_btn {
     width: 130px;
     font-size: 12px;
+  }
+  .world .all_cities {
+    margin-top: 400px;
   }
   .promo {
     width: 335px;
