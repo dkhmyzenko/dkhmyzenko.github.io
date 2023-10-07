@@ -1,5 +1,4 @@
 @import 'base/mixins';
-@import 'base/media';
 @import 'base/variable';
 @import 'blocks/container';
 @import 'blocks/promo';
@@ -10,8 +9,14 @@
 @import 'blocks/forms';
 @import 'blocks/slider';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'base/media';
 
 * {
     box-sizing: border-box;
     font-family: 'Museo Sans Cyrl', sans-serif ;
+}
+body {
+    min-width: 780px;
 }

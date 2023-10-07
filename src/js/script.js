@@ -3,13 +3,12 @@ const leftButton = document.querySelector('.slider__button_left'),
     slides = document.querySelectorAll('.slider__elems'),
     rightButton = document.querySelector('.slider__button_right'),
     slidesElement = document.querySelector('.slider__inner'),
-    slidesWrapper = document.querySelector('.slider__courusel'),
+    slidesWrapper = document.querySelector('.slider__wrapper'),
     slider = document.querySelector('.slider'),
     width = window.getComputedStyle(slidesWrapper).width;
 let offset = 0;
 let x1 = 0,
     x2 = 0;
-
 
 slides.forEach(slide => {
     slide.style.width = width;

@@ -12,15 +12,15 @@
 <div class="promo">
     <div class="container">
         <div class="header">
-           <a href="#" class="header_logo">
+           <a href="#" class="header__logo">
             <img src="icons/logo.png" alt="header-logo">
            </a>
-           <div class="header__official">
+           <div class="header__official header__official_hidden ">
             Официальный представитель
             <span>Garmin, Polar, Suunto</span>
            </div>
            <div class="header__contacts">
-            <a href="#" tel="+74999228974" class="header__phone">+7 (499) 922-89-74
+            <a href="tel:+74999228974"  class="header__phone">+7 (499) 922-89-74
             </a>
             <button class="button">заказать звонок</button>
            </div>
@@ -125,12 +125,12 @@
     <div class="container">
         <h2 class="catalog__header">Каталог пульсометров</h2>
         <ul class="catalog__tabs">
-            <li class="catalog__tab catalog__tab_active" data-tab="tab-1"><div class="catalog__text">Для фитнеса</div></li>
-            <li class="catalog__tab" data-tab="tab-2"><div class="catalog__text" >для бега</div></li>
-            <li class="catalog__tab" data-tab="tab-2"><div class="catalog__text">для триатлона</div></li>
+            <li class="catalog__tab catalog__tab_active"><div class="catalog__text">Для фитнеса</div></li>
+            <li class="catalog__tab"><div class="catalog__text" >для бега</div></li>
+            <li class="catalog__tab"><div class="catalog__text">для триатлона</div></li>
         </ul>
-        <div class="catalog__elems catalog__elems_hidden" id="tab-1">
-            <div class="catalog-elem catalog-elem_margin ">
+        <div class="catalog__elems catalog__elems_hidden" >
+            <div class="catalog-elem  ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -155,7 +155,7 @@
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
             </div>
-            <div class="catalog-elem catalog-elem_margin">
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -180,7 +180,7 @@
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
             </div>
-            <div class="catalog-elem catalog-elem_margin">
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -281,8 +281,8 @@
                 </div>
             </div>
         </div>
-        <div class="catalog__elems catalog__elems_hidden" id="tab-2">
-            <div class="catalog-elem">
+        <div class="catalog__elems catalog__elems_hidden" >
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -306,7 +306,8 @@
                     </div>
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
-            </div>            <div class="catalog-elem">
+            </div>      
+        <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -330,7 +331,8 @@
                     </div>
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
-            </div>            <div class="catalog-elem">
+            </div>            
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -356,8 +358,8 @@
                 </div>
             </div>
         </div>
-        <div class="catalog__elems catalog__elems_hidden" id="tab-3">
-            <div class="catalog-elem">
+        <div class="catalog__elems catalog__elems_hidden" >
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -381,7 +383,8 @@
                     </div>
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
-            </div>            <div class="catalog-elem">
+            </div>            
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -405,7 +408,8 @@
                     </div>
                     <button class="button button_mini">КУПИТЬ</button>
                 </div>
-            </div>            <div class="catalog-elem">
+            </div>            
+            <div class="catalog-elem ">
                 <div class="catalog-elem__wrapper">
                     <div class="catalog-elem__content  ">
                         <img src="img/pulsometr.png" alt="pulsometr" class="catalog-elem__img">
@@ -432,8 +436,67 @@
             </div>
         </div>
     </div>
-
 </section>
+<section class="reviews">
+    <div class="container">
+        <h2 class="reviews__header">отзывы клиентов</h2>
+        <div class="review">
+            <img src="img/feed_1.png" alt="feed" class="review__icon">
+            <div class="review__elem">
+                <h5 class="review__user-name">Ирина Иванченко</h5>
+                <div class="review__result">2 полумарафона</div>
+                <div class="review__text">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.
+                    Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
+                    <br>
+                    <br>
+                    Новые цели - новый гаджет!
+                    <br>
+                    <br>
+                    Спасибо, RunSmart!</div>
+            </div>
+        </div>
+        <div class="reviews__line"></div>
+        <div class="review">
+            <img src="img/feed_2.png" alt="feed" class="review__icon">
+            <div class="review__elem">
+                <h5 class="review__user-name">Иван Сёмочкин</h5>
+                <div class="review__result">1 полумарафон</div>
+                <div class="review__text">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. 
+                    Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.
+                    <br>
+                    <br>
+                    С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
+            </div>
+        </div>
+        <div class="reviews__line"></div>
+        <div class="review">
+            <img src="img/feed_3.png" alt="feed" class="review__icon">
+            <div class="review__elem">
+                <h5 class="review__user-name">Юлия Дашкина</h5>
+                <div class="review__result">2 полумарафона</div>
+                <div class="review__text">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
+                    <br>
+                    <br>
+                    Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться!
+                     <br>
+                     <br>
+                    Спасибо!!!</div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9b0994071c63290eeae2d0c711fa5556116c170cb8051fa8f3f8d7ce7f663a52&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=false"></script>
+    <div class="footer__info">
+        <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
+        <a href="tel:+74999228974" class="footer__phone">8 (499) 922-89-74</a>
+        <div class="footer__social">
+            <a href="#" class="footer__links"><img src="icons/facebook.svg" alt="facebook"></a>
+            <a href="#" class="footer__links"><img src="icons/instagram.svg" alt="instagram"></a>
+            <a href="#" class="footer__links"><img src="icons/pinterest.svg" alt="pinterest"></a>
+        </div>
+    </div>
+</footer>
 <script src="js/script.js"></script>
 </body>
 </html>

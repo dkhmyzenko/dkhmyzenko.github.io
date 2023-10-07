@@ -1,5 +1,5 @@
 .catalog {
-    padding-bottom: 103px;
+    padding-bottom: 83px;
     min-height: 1203px;
     &__header {
     font-size: 30px;
@@ -48,13 +48,14 @@
     &__elems {
         margin-top: 59px;
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
+        flex-wrap: wrap;
         &_hidden {
             display: none;
         }
     }
     &-elem {
+        margin-bottom: 20px;
         width: 300px;
         height: 440px;
         border: 2px solid #e8e8e8;
@@ -119,9 +120,6 @@
             font-size: 20px;
             font-weight: 700;
             color: #050505;
-        }
-        &_margin {
-            margin-bottom: 20px;
         }
         &__wrapper {
             width: calc(200% + 40px);
